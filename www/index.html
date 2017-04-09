@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>房价走势</title>
+    <link rel="stylesheet" href="http://css.letvcdn.com/lc07_lecloud/201611/14/13/41/style.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+
+<body>
+    <div id="app">
+    	<ul>
+    		<li 
+    			v-for='(i,index) in cityNameArr'
+    			@click="showCity(index)"
+                :class="{'active':index === activeIndex}">{{i}}</li>
+    	</ul>
+        
+        <div>
+            <input type="text" placeholder='请输入楼盘名称' v-model.trim='searchKey'>
+            <input readonly type="text" id="d1" tabindex="-1" class="common-input-style laydate-icon"
+               onFocus="WdatePicker({dateFmt:'yyyy-MM-dd',minDate:'2017-04-05',maxDate:'%y-%M-%d'})">
+            <button @click="searchByDate">搜索</button>
+        </div>
+        <div>
+            <div>{{dongtaiDay}}日动态</div>
+            <div v-html='dongtai'></div>
+        </div>
+    	<table>
+    		<tr>
+    			<th>楼盘</th>
+    			<th>售价</th>
+    			<th>户型</th>
+                <th>面积</th>
+                <th>特价信息</th>
+    		</tr>
+    		<template v-for="(val, key) in mainList" v-if="val[0].resblock_name.indexOf(searchKey) > -1">
+    			<tr>
+                    <td>
+                        <a :href="baseUrl+val[0].url" target="blank">{{val[0].resblock_name}}</a>
+                    </td>
+                    <td>{{val[0].show_price}}{{val[0].show_price_unit}}</td>
+                    <td>{{val[0].rooms}}</td>
+                    <td>{{val[0].resblock_frame_area}}</td>
+                    <td>{{val[0].special_tags[0]}}</td>
+    			</tr>
+    		</template>
+    	</table>
+    </div>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/vue/2.1.3/vue.js"></script>
+    <script src="http://js.letvcdn.com/lc03_lecloud/201512/31/14/30/WdatePicker.js"></script>
+    <script src="./js/axios.js"></script>
+    <script type="text/javascript" src='./js/util.js'></script>
+    <script type="text/javascript" src='./js/main.js'></script>
+</body>
+
+</html>

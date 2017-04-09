@@ -1,0 +1,1017 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="renderer" content="webkit" /><meta http-equiv="Cache-Control" content="no-transform" /><meta http-equiv="Cache-Control" content="no-siteapp" /><meta name="format-detection" content="telephone=no" />
+<title>北京新楼盘_北京买房_北京房产信息网(北京链家网)</title>
+<meta name="description" content="链家网北京站为您提供{2016}年北京楼盘信息,并推荐精选北京新楼盘、北京特色楼盘,方便您在北京买房置业" />
+<meta name="keywords" content="北京新楼盘,北京买房,北京房产信息网" />
+<link href="/favicon.ico" type="image/x-icon" rel=icon><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"><link rel="stylesheet" href="http://s1.ljcdn.com/xinfang/pc/asset/common.css?_v=20170401192341"><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.lianjia.com/bj/loupan/fang/" ><link rel="stylesheet" href="http://s1.ljcdn.com/xinfang/pc/asset/xinfang/css/site.css?_v=20170401192341">
+<script>ljConf = {city_id: '110000',pageConfig: {"ajaxroot":"http:\/\/ajax.api.lianjia.com\/"}};</script><!--[if lt IE 9]><script type="text/javascript" src="http://s1.ljcdn.com/xinfang/dep/common-require/html5.js?_v=20170401192341"></script><![endif]-->
+<script>
+function RESIZEIMG(b,k,l,m){var c=b.parentNode;var d=parseInt(c.offsetWidth)||k;var e=parseInt(c.offsetHeight)||l;var f=d/e;var g=b.naturalWidth||b.width;var h=b.naturalHeight||b.height;var i=g/h;var j="width";if(f<i){j="height";try{b.style["left"]="-"+parseInt(Math.abs((d-(g*e/h))/2))+"px"}catch(e){}}else if(m){try{b.style["top"]="-"+parseInt(Math.abs((e-(h*d/g))/2))+"px"}catch(e){}};b.style[j]="100%";};
+</script>
+<script>
+var _czc = _czc || [];
+_czc.push(["_setAccount", "1254525948"]);
+</script>
+
+</head><body><script>
+__STAT_LJ_CONF = {
+    params: {
+        ljweb_group: ['SEARCH','BIGDATA_PC'],
+        ljweb_id: '',
+        ljweb_mod: '',
+        ljweb_bl: '',
+        ljweb_el: '',
+        ljweb_index: '',
+        ljweb_value: '',
+        ljweb_url: '',
+        ljweb_sample: (document.cookie.match(/(?:^| )sample_traffic_test=([^;]*)(?:;|$)/) || ['',''])[1],
+        ljweb_ref: document.referrer,
+        ljweb_cid: '110000',
+        ljweb_channel: 'xinfang',
+        ljweb_page: 'xinfang_index'
+    }
+};
+
+
+
+var UT = {
+    send: function() {
+
+    }
+};
+var LjUserTrack = {
+    log: [],
+    initInterval: false,
+    intervalLog: function() {
+        setTimeout(function() {
+            if(window.$ULOG && $ULOG.send) {
+                for(var i = 0, l = LjUserTrack.log.length; i < l; i++) {
+                    LjUserTrack.__send(LjUserTrack.log[i]);
+                }
+
+                for(var m = 0, n = LjUserTrack.logIds.length; m < n; m++) {
+                    LjUserTrack.__sendId(LjUserTrack.logIds[m]);
+                }
+            } else {
+                LjUserTrack.intervalLog();
+            }
+        }, 16.7);
+    },
+    _start_time: +new Date,
+    __send: function(data) {
+        $ULOG.send("10043", {
+            "pid": (window.__UDL_CONFIG && window.__UDL_CONFIG.pid && window.__UDL_CONFIG.pid)||"lianjiaweb",
+            "key": window.location.href,
+            "action": data
+        });
+    },
+    logIds: [],
+    __sendId: function(id) {
+        id && $ULOG.send(id, {
+            "pid": (window.__UDL_CONFIG && window.__UDL_CONFIG.pid && window.__UDL_CONFIG.pid)||"lianjiaweb",
+            "key": window.location.href
+        });
+    },
+    sendId: function(id) {
+        if(window.$ULOG && $ULOG.send) {
+            LjUserTrack.__sendId(id);
+        } else {
+            LjUserTrack.logIds.push(id);
+
+            LjUserTrack.initInterval || (LjUserTrack.initInterval = true, LjUserTrack.intervalLog());
+
+        }
+    },
+    send: function(data, el, config) {
+
+        var utConf = __STAT_LJ_CONF;
+        var params = config || utConf.params,
+            win = window,
+            j;
+
+        data.groupIndex = data.ljweb_group || 0;
+
+        if (params) {
+            for (var d in params) {
+                if(params[d] !== j && data[d] === j) {
+                    data[d] = params[d];
+                }
+            }
+        }
+
+        if(el) {
+            this.checkClick(el, data);
+        }
+
+        data.ljweb_group = params['ljweb_group'][data.groupIndex || 0];
+
+        delete data.groupIndex;
+
+        if(data.typ) {
+            data.ljweb_bl = (data.ljweb_bl || '') + '_' + data.typ;
+            delete data.typ;
+        }
+
+        if(window.$ULOG && $ULOG.send) {
+            LjUserTrack.__send(data);
+        } else {
+            LjUserTrack.log.push(data);
+
+            LjUserTrack.initInterval || (LjUserTrack.initInterval = true, LjUserTrack.intervalLog());
+
+        }
+
+    },
+    checkClick: function(el, data) {
+
+        var TAG_LINK = 'A';
+        var href = '';
+        var elParent = null;
+
+        href = (el.tagName.toUpperCase() === TAG_LINK ? el.getAttribute("href", 2) : '');
+        if(!href && (elParent = el.parentNode) && elParent.nodeType === 1) {
+            href = (elParent.tagName.toUpperCase() === TAG_LINK ? elParent.getAttribute("href", 2) : '');
+        }
+
+        if(href) {
+            data.ljweb_url = href;
+        } else {
+            data.ljweb_url = data.ljweb_url
+                  || el.getAttribute("data-log_url")
+                  || (elParent=el.parentNode||el).getAttribute("data-log_url")
+                  || (
+                        (elParent=elParent.parentNode||elParent)
+                     && (elParent.nodeType === 1)
+                     && elParent.getAttribute("data-log_url")
+                     )
+                  || "";
+        }
+
+        this.attr(el, data);
+
+    },
+    path: function() {
+
+    },
+    attr: function(el, data) {
+        var modId = el.getAttribute("log-mod");
+        var blAttr = el.getAttribute("data-bl");
+        var elAttr = el.getAttribute("data-el");
+        var InAttr = el.getAttribute("data-log_index");
+        var valAttr = el.getAttribute("data-log_value");
+        var idAttr = el.getAttribute("data-log_id");
+        var groupAttr = el.getAttribute("data-log_group");
+
+        data.ljweb_bl = data.ljweb_bl || blAttr || '';
+        data.ljweb_el = data.ljweb_el || elAttr || '';
+        data.ljweb_index = data.ljweb_index || InAttr || '';
+        data.ljweb_value = data.ljweb_value || valAttr || '';
+        data.ljweb_id = data.ljweb_id || idAttr || '';
+        data.groupIndex = data.groupIndex || groupAttr || 0;
+
+        if (!modId) {
+            if (el.parentNode && el.parentNode.nodeType === 1 && el.parentNode.tagName.toUpperCase() !== 'BODY') {
+                this.attr(el.parentNode, data);
+            }
+        } else {
+            data.ljweb_mod = modId;
+        }
+    }
+};
+
+;;(function() {
+    var isW3c = !!document.addEventListener;
+
+    LjUserTrack.send({
+        ljweb_mod: 'pv',
+        ljweb_group: 1
+    });
+
+    /*window[isW3c ? 'addEventListener' : 'attachEvent'](
+        (isW3c ? '': 'on') + 'beforeunload',
+        function(e) {
+            var _end_time = +new Date;
+            UT.send({type: 'show', subtype: 'stay', time: (_end_time-UT._start_time)/1000});
+        },
+        false);*/
+})();
+
+
+
+
+
+</script>
+<header class="lianjia-header lianjia-header-xinfang"><div class="nav-wrap"><div class="wrapper wrapper-xinfang"><div class="fr nav nav-xinfang"><div class="fl"><!-- <ul class="nav-lst">
+    <li><a class="home-a  first" href="http://bj.lianjia.com/ershoufang/" ><span>二手房</span></a></li>
+    <li><a class="home-a selected " href="http://bj.fang.lianjia.com/" ><span>新房</span></a></li>
+    <li><a class="home-a  " href="http://bj.lianjia.com/zufang/" target="_blank"><span>租房</span></a></li>
+    <li><a  rel="nofollow" class="home-a  " href="http://you.lianjia.com/" target="_blank"><span>旅居地产</span></a></li>
+    <li><a class="home-a  " href="http://www.lianjia.com/overseas/" target="_blank"><span>海外</span></a></li>
+    <li><a class="home-a  " href="http://bj.lianjia.com/xiaoqu/" target="_blank"><span>小区</span></a></li>
+    <li><a class="home-a  " href="http://bj.lianjia.com/jingjiren/" target="_blank"><span>经纪人</span></a></li>
+    <li><a class="home-a  " href="http://news.bj.lianjia.com/baike/" target="_blank"><span>指南</span></a></li>
+    <li><a class="home-a  " href="http://www.lianjia.com/client/" target="_blank"><span>链家APP</span></a></li>
+    <li><a class="home-a  " href="http://bj.lianjia.com/yezhu/" target="_blank"><span>我是业主</span></a></li>
+</ul> -->
+		
+<ul>
+   <li class="index-page-link hide"><a href="http://www.lianjia.com/">首页</a></li>
+		    	        <li>
+	            <a  class="" href="http://bj.lianjia.com/ershoufang/" >
+	            二手房
+	            </a>
+	        </li>
+	    		    	        <li>
+	            <a  class="on" href="http://bj.fang.lianjia.com/" >
+	            新房
+	            </a>
+	        </li>
+	    		    	        <li>
+	            <a  class="" href="http://bj.lianjia.com/zufang/" target="_blank">
+	            租房
+	            </a>
+	        </li>
+	    		    	        <li>
+	            <a  rel="nofollow"  class="" href="http://you.lianjia.com/" target="_blank">
+	            旅居地产
+	            </a>
+	        </li>
+	    		    	        <li>
+	            <a  class="" href="http://www.lianjia.com/overseas/" target="_blank">
+	            海外
+	            </a>
+	        </li>
+	    		    	        <li>
+	            <a  class="" href="http://bj.lianjia.com/xiaoqu/" target="_blank">
+	            小区
+	            </a>
+	        </li>
+	    		    	        <li>
+	            <a  class="" href="http://bj.lianjia.com/jingjiren/" target="_blank">
+	            经纪人
+	            </a>
+	        </li>
+	    		    	        <li class="hover">
+	            <a  class="" href="http://news.bj.lianjia.com/baike/" target="_blank">
+	            指南
+	            </a>
+	            <div class="nav-list nav-list-xinfang">
+	                <dd>
+	                    <i></i>
+	                                                                                <dl>
+                                    <a href="http://news.bj.lianjia.com/baike/" target="_blank">百科</a>
+                                </dl>
+                                                    	                </dd>
+	            </div>
+	        </li>
+	    		    	        <li class="hover">
+	            <a  class="" href="http://www.lianjia.com/client/" target="_blank">
+	            链家APP
+	            </a>
+	            <div class="nav-list nav-list-xinfang">
+	                <dd>
+	                    <i></i>
+	                                                                                <img src="http://s1.ljcdn.com/xinfang/pc/asset/img/home/qcode-nav@2x.png?_v=20170401192341">
+                                                    	                </dd>
+	            </div>
+	        </li>
+	    		    	        <li>
+	            <a  class="" href="http://bj.lianjia.com/yezhu/" target="_blank">
+	            我是业主
+	            </a>
+	        </li>
+	    	</ul>
+			
+</div><div class="fr login"><div class="login-panel typeUserInfo"><script type="text/template" class="template">
+    <%if(data && data.username){%>
+      <%if(data.isAgent){%>
+       <a href="<%=$.env.fixedUrl('http://agent.lianjia.com/')%>"><span><%=data.username%>&nbsp;&nbsp;</span></a>
+      <%}else{%>
+        <a href="<%=$.env.fixedUrl('http://user.lianjia.com/')%>" rel="nofollow"><span><%=data.username%>&nbsp;&nbsp;</span></a>
+       <%}%>
+       <%if(data.isAgent){%>
+         <span class="welcome"><a class="reg" data-xftrack="10117_3" href="<%=data.logoutUrl%>">退出</a></span>
+       <%}else{%>
+         <span class="welcome"><a class="reg" data-xftrack="10117_3" href="<%=data.logoutUrl%>">退出</a></span>
+        <%}%>  
+    <%}else{%>
+      <span class="welcome"><a href="<%=data.registerUrl%>" data-xftrack="10117_2" rel="nofollow"><span class="log">注册</span></a>|<a class="btn-login bounceIn actLoginBtn" href="<%=data.loginUrl%>" data-xftrack="10117_1" rel="nofollow"><span class="reg">登录</span></a></span>
+    <%}%>
+  </script><div class="typeShowUser"><span class="welcome"><a href="http://passport.lianjia.com/register/resources/lianjia/register.html?service=http%3A%2F%2Fbj.fang.lianjia.com%2F%3F%26%26query%3Dnho22nhs3nht1" data-xftrack="10117_2" rel="nofollow" ><span class="log">注册</span></a>|<a href="https://passport.lianjia.com/cas/login?service=http%3A%2F%2Fbj.fang.lianjia.com%2F%3F%26%26query%3Dnho22nhs3nht1" class="btn-login bounceIn actLoginBtn" data-xftrack="10117_1" rel="nofollow"><span class="reg">登录</span></a></span></div></div>
+</div></div></div></div></header>
+
+<!-- NAV -->
+<div class="xinfang-nav"><div class="wrapper-xinfang"><div class="fl"><a class="logo" href="/"  title="链家房产网"></a><span class="nav-border"></span><a class="s-city" data-xftrack="10124" title="选择城市">北京</a><ul class="nav-list"><li><a class="check" href="" data-xftrack="10125_1">首页</a></li><li><a href="/loupan/" data-xftrack="10125_2">楼盘</a></li><li><a href="http://you.lianjia.com">旅居<i></i></a></li></ul></div><div class="fr"><div class="ren-con"><span class="recently" data-id="off" style="display:none;">最近浏览</span><div class="r-container"><div class="recent-detail"><img src="http://s1.ljcdn.com/xinfang/pc/asset/img/new-version/loading.gif?_v=20170401192341" class="loading"><ul id="rencetContainer"></ul></div><div class="clear-all"><a href="https://passport.lianjia.com/cas/login?service=http%3A%2F%2Fbj.fang.lianjia.com%2F%3F%26%26query%3Dnho22nhs3nht1" class="login-btn" rel="nofollow">登录查看更多</a><span>清空全部</span></div></div></div><i class="phone"></i><span>客服热线  1010-9666</span></div></div></div>
+
+<!-- BANNER -->
+<div class="xinfang-banner"><div class="x-map fl"><div class="x-m-top"><div class="s-city"><i></i>北京<i class="p-110000"></i></div><div class="s-map"><a href="/ditu/" data-xftrack="10126">地图找房</a></div></div><a href="/ditu/" data-xftrack="10126"><div class="x-m-info m-110000"><div class="x-m-txt"><p class="hide">房屋均价:&nbsp;&nbsp;<span class="h-price">0 - 150000元/平米</span></p><p>在售楼盘:&nbsp;&nbsp;<span>147个</span></p></div></div></a></div><div class="x-banner fl"><a href="http://bj.fang.lianjia.com/loupan/qiangfangjishi" data-xftrack="10128" target="_blank"><i class="title"></i></a></div><div class="x-filter indexSearch"><div class="x-f-block clear" id="filWrapper"><input class="search fl" placeholder="楼盘名/关键字"/><div class="btn fl search-btn" id="filBtn" data-xftrack="10127_1" data-url="/loupan/rs"></div><ul id="sugBox" class="sug-box" data-cityId="110000"><li></li></ul></div><div class="x-f-block x-f-desc"><span class="sub">推荐搜索:</span><a href="http://bj.fang.lianjia.com/loupan/p_xgfaaaxz/" data-xftrack="10127_3">霞公府</a><a href="http://bj.fang.lianjia.com/loupan/p_hdhfaalqa/" data-xftrack="10127_3">恒大华府</a><a href="http://bj.fang.lianjia.com/loupan/p_trfxddaaaly/" data-xftrack="10127_3">天润福熙大道</a><a href="http://bj.fang.lianjia.com/loupan/p_glsxzaacnu/" data-xftrack="10127_3">格拉斯小镇</a></div><div class="x-f-block clear"><p class="txt">试试条件找房：</p><div class="choose"><div class="fix-item">区域</div><ul class="items"><li data-id="/loupan/" data-xftrack="10127_5" title="不限">不限</li><li data-id="/loupan/dongcheng/" data-xftrack="10127_5" title="东城">东城</li><li data-id="/loupan/xicheng/" data-xftrack="10127_5" title="西城">西城</li><li data-id="/loupan/chaoyang/" data-xftrack="10127_5" title="朝阳">朝阳</li><li data-id="/loupan/haidian/" data-xftrack="10127_5" title="海淀">海淀</li><li data-id="/loupan/fengtai/" data-xftrack="10127_5" title="丰台">丰台</li><li data-id="/loupan/shijingshan/" data-xftrack="10127_5" title="石景山">石景山</li><li data-id="/loupan/tongzhou/" data-xftrack="10127_5" title="通州">通州</li><li data-id="/loupan/changping/" data-xftrack="10127_5" title="昌平">昌平</li><li data-id="/loupan/daxing/" data-xftrack="10127_5" title="大兴">大兴</li><li data-id="/loupan/yizhuangkaifaqu/" data-xftrack="10127_5" title="亦庄开发区">亦庄开发区</li><li data-id="/loupan/shunyi/" data-xftrack="10127_5" title="顺义">顺义</li><li data-id="/loupan/fangshan/" data-xftrack="10127_5" title="房山">房山</li><li data-id="/loupan/mentougou/" data-xftrack="10127_5" title="门头沟">门头沟</li><li data-id="/loupan/pinggu/" data-xftrack="10127_5" title="平谷">平谷</li><li data-id="/loupan/huairou/" data-xftrack="10127_5" title="怀柔">怀柔</li><li data-id="/loupan/miyun/" data-xftrack="10127_5" title="密云">密云</li><li data-id="/loupan/yanqing/" data-xftrack="10127_5" title="延庆">延庆</li><li data-id="/loupan/yanjiao/" data-xftrack="10127_5" title="燕郊">燕郊</li><li data-id="/loupan/anci/" data-xftrack="10127_5" title="安次">安次</li><li data-id="/loupan/guangyang/" data-xftrack="10127_5" title="广阳">广阳</li><li data-id="/loupan/wuqing/" data-xftrack="10127_5" title="武清">武清</li><li data-id="/loupan/guan/" data-xftrack="10127_5" title="固安">固安</li><li data-id="/loupan/yongqing/" data-xftrack="10127_5" title="永清">永清</li><li data-id="/loupan/xianghe/" data-xftrack="10127_5" title="香河">香河</li><li data-id="/loupan/langfangjingjijishu/" data-xftrack="10127_5" title="廊坊经济技术开发区">廊坊经济技术开发区</li><li data-id="/loupan/dachang/" data-xftrack="10127_5" title="大厂">大厂</li><li data-id="/loupan/huailaixian/" data-xftrack="10127_5" title="怀来县">怀来县</li><li data-id="/loupan/yixian/" data-xftrack="10127_5" title="易县">易县</li><li data-id="/loupan/zhuozhou1/" data-xftrack="10127_5" title="涿州">涿州</li><li data-id="/loupan/laishui1/" data-xftrack="10127_5" title="涞水">涞水</li><li data-id="/loupan/bazhou/" data-xftrack="10127_5" title="霸州">霸州</li><li data-id="/loupan/chonglixian/" data-xftrack="10127_5" title="崇礼县">崇礼县</li><li data-id="/loupan/chengde/" data-xftrack="10127_5" title="承德">承德</li></ul><div style="display: none;"><a href="/loupan/">不限</a><a href="/loupan/dongcheng/">东城</a><a href="/loupan/xicheng/">西城</a><a href="/loupan/chaoyang/">朝阳</a><a href="/loupan/haidian/">海淀</a><a href="/loupan/fengtai/">丰台</a><a href="/loupan/shijingshan/">石景山</a><a href="/loupan/tongzhou/">通州</a><a href="/loupan/changping/">昌平</a><a href="/loupan/daxing/">大兴</a><a href="/loupan/yizhuangkaifaqu/">亦庄开发区</a><a href="/loupan/shunyi/">顺义</a><a href="/loupan/fangshan/">房山</a><a href="/loupan/mentougou/">门头沟</a><a href="/loupan/pinggu/">平谷</a><a href="/loupan/huairou/">怀柔</a><a href="/loupan/miyun/">密云</a><a href="/loupan/yanqing/">延庆</a><a href="/loupan/yanjiao/">燕郊</a><a href="/loupan/anci/">安次</a><a href="/loupan/guangyang/">广阳</a><a href="/loupan/wuqing/">武清</a><a href="/loupan/guan/">固安</a><a href="/loupan/yongqing/">永清</a><a href="/loupan/xianghe/">香河</a><a href="/loupan/langfangjingjijishu/">廊坊经济技术开发区</a><a href="/loupan/dachang/">大厂</a><a href="/loupan/huailaixian/">怀来县</a><a href="/loupan/yixian/">易县</a><a href="/loupan/zhuozhou1/">涿州</a><a href="/loupan/laishui1/">涞水</a><a href="/loupan/bazhou/">霸州</a><a href="/loupan/chonglixian/">崇礼县</a><a href="/loupan/chengde/">承德</a></div><i class="fil-label"></i></div><div class="choose"><div class="fix-item">地铁</div><ul class="items"><li data-id="/loupan/" data-xftrack="10127_5" title="不限">不限</li><li data-id="/loupan/li647/" data-xftrack="10127_5" title="1号线">1号线</li><li data-id="/loupan/li648/" data-xftrack="10127_5" title="2号线">2号线</li><li data-id="/loupan/li656/" data-xftrack="10127_5" title="4号线">4号线</li><li data-id="/loupan/li649/" data-xftrack="10127_5" title="5号线">5号线</li><li data-id="/loupan/li46107350/" data-xftrack="10127_5" title="6号线">6号线</li><li data-id="/loupan/li46537785/" data-xftrack="10127_5" title="7号线">7号线</li><li data-id="/loupan/li659/" data-xftrack="10127_5" title="8号线">8号线</li><li data-id="/loupan/li43145267/" data-xftrack="10127_5" title="9号线">9号线</li><li data-id="/loupan/li651/" data-xftrack="10127_5" title="10号线">10号线</li><li data-id="/loupan/li652/" data-xftrack="10127_5" title="13号线">13号线</li><li data-id="/loupan/li46461179/" data-xftrack="10127_5" title="14号线(东段)">14号线(东段)</li><li data-id="/loupan/li1110790465974155/" data-xftrack="10127_5" title="14号线(西段)">14号线(西段)</li><li data-id="/loupan/li43143633/" data-xftrack="10127_5" title="15号线">15号线</li><li data-id="/loupan/li1116796246117001/" data-xftrack="10127_5" title="16号线">16号线</li><li data-id="/loupan/li653/" data-xftrack="10127_5" title="八通线">八通线</li><li data-id="/loupan/li43144847/" data-xftrack="10127_5" title="亦庄线">亦庄线</li><li data-id="/loupan/li43144993/" data-xftrack="10127_5" title="昌平线">昌平线</li><li data-id="/loupan/li43145111/" data-xftrack="10127_5" title="房山线">房山线</li><li data-id="/loupan/li654/" data-xftrack="10127_5" title="机场线">机场线</li></ul><div style="display: none;"><a href="/loupan/">不限</a><a href="/loupan/li647/">1号线</a><a href="/loupan/li648/">2号线</a><a href="/loupan/li656/">4号线</a><a href="/loupan/li649/">5号线</a><a href="/loupan/li46107350/">6号线</a><a href="/loupan/li46537785/">7号线</a><a href="/loupan/li659/">8号线</a><a href="/loupan/li43145267/">9号线</a><a href="/loupan/li651/">10号线</a><a href="/loupan/li652/">13号线</a><a href="/loupan/li46461179/">14号线(东段)</a><a href="/loupan/li1110790465974155/">14号线(西段)</a><a href="/loupan/li43143633/">15号线</a><a href="/loupan/li1116796246117001/">16号线</a><a href="/loupan/li653/">八通线</a><a href="/loupan/li43144847/">亦庄线</a><a href="/loupan/li43144993/">昌平线</a><a href="/loupan/li43145111/">房山线</a><a href="/loupan/li654/">机场线</a></div><i class="fil-label"></i></div><div class="choose"><div class="fix-item">房型</div><ul class="items"><li data-id="/loupan/" data-xftrack="10127_5" title="不限">不限</li><li data-id="/loupan/l1/" data-xftrack="10127_5" title="一室">一室</li><li data-id="/loupan/l2/" data-xftrack="10127_5" title="二室">二室</li><li data-id="/loupan/l3/" data-xftrack="10127_5" title="三室">三室</li><li data-id="/loupan/l4/" data-xftrack="10127_5" title="四室">四室</li><li data-id="/loupan/l5/" data-xftrack="10127_5" title="五室">五室</li><li data-id="/loupan/l6/" data-xftrack="10127_5" title="五室以上">五室以上</li></ul><div style="display: none;"><a href="/loupan/">不限</a><a href="/loupan/l1/">一室</a><a href="/loupan/l2/">二室</a><a href="/loupan/l3/">三室</a><a href="/loupan/l4/">四室</a><a href="/loupan/l5/">五室</a><a href="/loupan/l6/">五室以上</a></div><i class="fil-label"></i></div><div class="choose"><div class="fix-item">售价</div><ul class="items"><li data-id="/loupan/" data-xftrack="10127_5" title="不限">不限</li><li data-id="/loupan/p1/" data-xftrack="10127_5" title="100万以下">100万以下</li><li data-id="/loupan/p2/" data-xftrack="10127_5" title="100-150万">100-150万</li><li data-id="/loupan/p3/" data-xftrack="10127_5" title="150-200万">150-200万</li><li data-id="/loupan/p4/" data-xftrack="10127_5" title="200-250万">200-250万</li><li data-id="/loupan/p5/" data-xftrack="10127_5" title="250-300万">250-300万</li><li data-id="/loupan/p6/" data-xftrack="10127_5" title="300-500万">300-500万</li><li data-id="/loupan/p7/" data-xftrack="10127_5" title="500-1000万">500-1000万</li><li data-id="/loupan/p8/" data-xftrack="10127_5" title="1000万以上">1000万以上</li></ul><div style="display: none;"><a href="/loupan/">不限</a><a href="/loupan/p1/">100万以下</a><a href="/loupan/p2/">100-150万</a><a href="/loupan/p3/">150-200万</a><a href="/loupan/p4/">200-250万</a><a href="/loupan/p5/">250-300万</a><a href="/loupan/p6/">300-500万</a><a href="/loupan/p7/">500-1000万</a><a href="/loupan/p8/">1000万以上</a></div><i class="fil-label"></i></div></div><div class="x-f-block clear"><div class="fil-btn" data-xftrack="10127_6" data-id="110000">筛选</div></div></div></div><div class="city-change animated"><span class="close"></span><div class="title">选择城市<span class="city-tab"><span class="code1">热门城市:</span><a href="http://bj.fang.lianjia.com/" title="北京房产网">北京</a><a href="http://sh.fang.lianjia.com/" title="上海房产网">上海</a><a href="http://gz.fang.lianjia.com/" title="广州房产网">广州</a><a href="http://sz.fang.lianjia.com/" title="深圳房产网">深圳</a></span></div><div class="title-line"></div><div class="fc-main clear"><div class="fl citys-l"><ul><li class="clear"><span class="code-title fl">B</span><div class="city-enum fl"><a href="http://bj.fang.lianjia.com" title="北京房产网">北京</a></div></li><li class="clear"><span class="code-title fl">C</span><div class="city-enum fl"><a href="http://cd.fang.lianjia.com" title="成都房产网">成都</a><a href="http://cq.fang.lianjia.com" title="重庆房产网">重庆</a><a href="http://cs.fang.lianjia.com" title="长沙房产网">长沙</a></div></li><li class="clear"><span class="code-title fl">D</span><div class="city-enum fl"><a href="http://dl.fang.lianjia.com" title="大连房产网">大连</a></div></li><li class="clear"><span class="code-title fl">G</span><div class="city-enum fl"><a href="http://gz.fang.lianjia.com" title="广州房产网">广州</a></div></li><li class="clear"><span class="code-title fl">H</span><div class="city-enum fl"><a href="http://hz.fang.lianjia.com" title="杭州房产网">杭州</a><a href="http://you.lianjia.com/hk" title="海口房产网">海口</a><a href="http://hf.fang.lianjia.com" title="合肥房产网">合肥</a></div></li><li class="clear"><span class="code-title fl">J</span><div class="city-enum fl"><a href="http://jn.fang.lianjia.com" title="济南房产网">济南</a></div></li><li class="clear"><span class="code-title fl">L</span><div class="city-enum fl"><a href="http://you.lianjia.com/ls" title="陵水房产网">陵水</a></div></li></ul></div><div class="fl citys-r"><ul><li class="clear"><span class="code-title fl">N</span><div class="city-enum fl"><a href="http://nj.fang.lianjia.com" title="南京房产网">南京</a></div></li><li class="clear"><span class="code-title fl">Q</span><div class="city-enum fl"><a href="http://qd.fang.lianjia.com" title="青岛房产网">青岛</a><a href="http://you.lianjia.com/qh" title="琼海房产网">琼海</a></div></li><li class="clear"><span class="code-title fl">S</span><div class="city-enum fl"><a href="http://sh.fang.lianjia.com" title="上海房产网">上海</a><a href="http://sz.fang.lianjia.com" title="深圳房产网">深圳</a><a href="http://su.fang.lianjia.com" title="苏州房产网">苏州</a><a href="http://sjz.fang.lianjia.com" title="石家庄房产网">石家庄</a><a href="http://you.lianjia.com/san" title="三亚房产网">三亚</a><a href="http://sy.fang.lianjia.com" title="沈阳房产网">沈阳</a></div></li><li class="clear"><span class="code-title fl">T</span><div class="city-enum fl"><a href="http://tj.fang.lianjia.com" title="天津房产网">天津</a></div></li><li class="clear"><span class="code-title fl">W</span><div class="city-enum fl"><a href="http://wh.fang.lianjia.com" title="武汉房产网">武汉</a><a href="http://you.lianjia.com/wc" title="文昌房产网">文昌</a><a href="http://you.lianjia.com/wn" title="万宁房产网">万宁</a></div></li><li class="clear"><span class="code-title fl">X</span><div class="city-enum fl"><a href="http://xm.fang.lianjia.com" title="厦门房产网">厦门</a><a href="http://xa.fang.lianjia.com" title="西安房产网">西安</a></div></li><li class="clear"><span class="code-title fl">Y</span><div class="city-enum fl"><a href="http://yt.fang.lianjia.com" title="烟台房产网">烟台</a></div></li></ul></div></div></div><div class="overlayBg"></div>
+  <script id="suggestTpl" type="text/template">
+    <% for(var i = 0; i < list.length; i++){ %>
+    <li data-url="<%=list[i]['url']%>" data-xftrack="10127_2" data-title="<%=list[i]['title']%>" data-index="<%=i+1%>"><a href="<%=list[i]['url']%>">
+        <span><%=list[i]['title']%></span>
+        <%if(list[i]['type'] == 'resblock'){%>
+            <span class="for-right">
+                <%if(list[i]['build_type']){%>
+                  <span class="type"><%=list[i]['build_type']%></span>
+                <%}%>
+            </span>
+        <%}else{%>
+        <span class="for-right">约<%=list[i]['count']%>个新楼盘</span>
+        <%}%>
+      </a></li>
+    <% } %>
+  </script>
+
+
+<!-- DES简介 -->
+
+
+<!-- 专题导购 -->
+
+<!-- 市场资讯 -->
+
+<!-- 视频看房 -->
+
+<!-- 地图看房-->
+
+<!-- 区域攻略-->
+
+<!-- 楼盘评测报告 -->
+
+<!-- HOT热门 -->
+
+<!-- COLORFUL特色 -->
+
+<!-- ALL全部 -->
+<div class="xinfang-all"><div class="wrapper-xinfang p-len"><div class="f-title clear"><div class="title-l"><h1>推荐楼盘</h1></div><div class="all">在售楼盘 <i>147</i> 个</div></div><div class="item-list"><ul><li  ><div class="img-part fix-wrap" data-width="230"><a href="/loupan/p_hdhfaalqa/" data-xftrack="10129" target="_blank" title="恒大华府"><img src="http://s1.ljcdn.com/xinfang/pc/asset/img/new-version/default_block.png?_v=20170401192341" data-original="http://image1.ljcdn.com/xf-resblock/d4594f7c-0842-49f4-8c12-d83b07d83100.jpg.315x315.jpg" class="lj-lazy" alt="恒大华府"><span class="coverpic-type coverpic-pos-lt">效果图</span><span class="big fix-txt title">恒大华府</span><span class="s-info"><i></i>【朝阳】东坝中街与单店北街交汇处西北侧</span><span class="s-price"><span class="s-price-before"></span><span class="s-price-cont">全款9.8折  贷款9.9折</span><span class="s-price-after"></span></span><div class="bg"></div></a></div><div class="del-part"><div class="information fl"><p>均价：<span class="folor">110000 元/平</span></p><p class="jushi">5居/4居 - 建面 271~338m²</p></div><div class="type fr">普通住宅</div></div></li><li  ><div class="img-part fix-wrap" data-width="230"><a href="/loupan/p_xgfaaaxz/" data-xftrack="10129" target="_blank" title="霞公府"><img src="http://s1.ljcdn.com/xinfang/pc/asset/img/new-version/default_block.png?_v=20170401192341" data-original="http://image1.ljcdn.com/xf-resblock/01b70084-c4d8-4fbf-a49d-a8c7851b24cc.jpg.315x315.jpg" class="lj-lazy" alt="霞公府"><span class="coverpic-type coverpic-pos-lt">效果图</span><span class="big fix-txt title">霞公府</span><span class="s-info"><i></i>【东城】北京饭店北侧，霞公府街</span><span class="s-price"><span class="s-price-before"></span><span class="s-price-cont">全款9.9折</span><span class="s-price-after"></span></span><div class="bg"></div></a></div><div class="del-part"><div class="information fl"><p>均价：<span class="folor">150000 元/平</span></p><p class="jushi">7居/5居/4居/3居 - 建面 351~591m²</p></div><div class="type fr">普通住宅</div></div></li><li class="last" ><div class="img-part fix-wrap" data-width="230"><a href="/loupan/p_ysmdaaiav/" data-xftrack="10129" target="_blank" title="优山美地D区"><img src="http://s1.ljcdn.com/xinfang/pc/asset/img/new-version/default_block.png?_v=20170401192341" data-original="http://image1.ljcdn.com/xf-resblock/48f93654-e58e-428d-8e8b-09fee9c6a04d.jpg.315x315.jpg" class="lj-lazy" alt="优山美地D区"><span class="coverpic-type coverpic-pos-lt">效果图</span><span class="big fix-txt title">优山美地D区</span><span class="s-info"><i></i>【顺义】新城第二十一街区，后沙峪镇</span><div class="bg"></div></a></div><div class="del-part"><div class="information fl"><p>均价：<span class="folor">77000 元/平</span></p><p class="jushi">4居 - 建面 653m²</p></div><div class="type fr">别墅</div></div></li><li  ><div class="img-part fix-wrap" data-width="230"><a href="/loupan/p_hklysaahsq/" data-xftrack="10129" target="_blank" title="鸿坤林语墅"><img src="http://s1.ljcdn.com/xinfang/pc/asset/img/new-version/default_block.png?_v=20170401192341" data-original="http://image1.ljcdn.com/xf-resblock/e723f0c9-6644-4de8-8193-65818f6c2eb8.jpg.315x315.jpg" class="lj-lazy" alt="鸿坤林语墅"><span class="coverpic-type coverpic-pos-lt">效果图</span><span class="big fix-txt title">鸿坤林语墅</span><span class="s-info"><i></i>【大兴】4号线西红门站往东800米</span><span class="s-price"><span class="s-price-before"></span><span class="s-price-cont">全款9.4折  贷款9.5折</span><span class="s-price-after"></span></span><div class="bg"></div></a></div><div class="del-part"><div class="information fl"><p>均价：<span class="folor">85000 元/平</span></p><p class="jushi">4居 - 建面 430m²</p></div><div class="type fr">别墅</div></div></li><li  ><div class="img-part fix-wrap" data-width="230"><a href="/loupan/p_aabex/" data-xftrack="10129" target="_blank" title="泊岸"><img src="http://s1.ljcdn.com/xinfang/pc/asset/img/new-version/default_block.png?_v=20170401192341" data-original="http://image1.ljcdn.com/xf-resblock/0d349deb-35b3-4cf9-9373-a279ed48ce5f.jpg.315x315.jpg" class="lj-lazy" alt="泊岸"><span class="coverpic-type coverpic-pos-lt">效果图</span><span class="big fix-txt title">泊岸</span><span class="s-info"><i></i>【怀柔】湖光小区甲26号院</span><div class="bg"></div></a></div><div class="del-part"><div class="information fl"><p>均价：<span class="folor">17000 元/平</span></p><p class="jushi">4居/2居 - 建面 312~323m²</p></div><div class="type fr">普通住宅</div></div></li><li class="last" ><div class="img-part fix-wrap" data-width="230"><a href="/loupan/p_trfxddaaaly/" data-xftrack="10129" target="_blank" title="天润福熙大道"><img src="http://s1.ljcdn.com/xinfang/pc/asset/img/new-version/default_block.png?_v=20170401192341" data-original="http://image1.ljcdn.com/xf-resblock/29b59fd1-c320-42b7-8047-ce8438531669.jpg.315x315.jpg" class="lj-lazy" alt="天润福熙大道"><span class="coverpic-type coverpic-pos-lt">效果图</span><span class="big fix-txt title">天润福熙大道</span><span class="s-info"><i></i>【朝阳】北五环红军营东路轻轨13号线北苑站北200米</span><span class="s-price"><span class="s-price-before"></span><span class="s-price-cont">全款9.8折  贷款9.9折</span><span class="s-price-after"></span></span><div class="bg"></div></a></div><div class="del-part"><div class="information fl"><p>均价：<span class="folor">93000 元/平</span></p><p class="jushi">4居 - 建面 251m²</p></div><div class="type fr">普通住宅</div></div></li></ul></div><a href="/loupan/" data-xftrack="10130"><div class="show-more">查看更多</div></a></div></div>
+<div class="footer"><div class="wrapper"><div class="f-title"><div class="fl"><ul><li><a href="//www.lianjia.com/zhuanti/home/" target="_blank" rel="nofollow">了解链家网</a></li><li><a href="http://bj.lianjia.com/about/aboutlianjia/" rel="nofollow" target="_blank">关于链家</a></li><li><a href="http://bj.lianjia.com/about/contactus/" rel="nofollow" target="_blank">联系我们</a></li><li><a href="http://join.lianjia.com/" rel="nofollow" target="_blank">加入我们</a></li><li><a href="http://www.lianjia.com/privacy/" rel="nofollow" target="_blank">隐私声明</a></li><li><a href="http://bj.lianjia.com/sitemap/" target="_blank">网站地图</a></li><li><a href="http://www.lianjia.com/notice/7.html" target="_blank" rel="nofollow">友情链接</a></li><li><a href="http://agent.lianjia.com" rel="nofollow" target="_blank">经纪人登录</a></li></ul></div><div class="fr">官方客服 1010 9666</div></div><div class="lianjia-link-box"><div class="fl"><div class="tab"><span  class="hover">北京区县楼盘</span><span >热门城市新房网</span><span >热门城市新楼盘</span><span >北京热门楼盘</span><span >热门百科</span></div><div class="link-list"><div><dd><a target="_blank" href="http://bj.fang.lianjia.com/loupan/changping/">昌平楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/chaoyang/">朝阳楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/dongcheng/">东城楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/daxing/">大兴楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/fangshan/">房山楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/fengtai/">丰台楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/haidian/">海淀楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/huairou/">怀柔楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/mentougou/">门头沟楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/miyun/">密云楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/pinggu/">平谷楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/shijingshan/">石景山楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/shunyi/">顺义楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/tongzhou/">通州楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/xicheng/">西城楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/yanqing/">延庆楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/yizhuangkaifaqu/">亦庄开发区楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/yanjiao/">燕郊楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/anci/">安次楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/guangyang/">广阳楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/wuqing/">武清楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/guan/">固安楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/yongqing/">永清楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/xianghe/">香河楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/langfangjingjijishu/">廊坊经济技术开发区楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/dachang/">大厂楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/huailaixian/">怀来县楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/yixian/">易县楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/zhuozhou1/">涿州楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/laishui1/">涞水楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/bazhou/">霸州楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/chonglixian/">崇礼县楼盘</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/chengde/">承德楼盘</a></dd></div><div><dd><a target="_blank" href="http://bj.fang.lianjia.com/">北京新房</a><a target="_blank" href="http://cd.fang.lianjia.com/">成都新房</a><a target="_blank" href="http://cq.fang.lianjia.com/">重庆新房</a><a target="_blank" href="http://cs.fang.lianjia.com/">长沙新房</a><a target="_blank" href="http://dl.fang.lianjia.com/">大连新房</a><a target="_blank" href="http://gz.fang.lianjia.com/">广州新房</a><a target="_blank" href="http://hz.fang.lianjia.com/">杭州新房</a><a target="_blank" href="http://jn.fang.lianjia.com/">济南新房</a><a target="_blank" href="http://nj.fang.lianjia.com/">南京新房</a><a target="_blank" href="http://qd.fang.lianjia.com/">青岛新房</a><a target="_blank" href="http://sjz.fang.lianjia.com/">石家庄新房</a><a target="_blank" href="http://sy.fang.lianjia.com/">沈阳新房</a><a target="_blank" href="http://sz.fang.lianjia.com/">深圳新房</a><a target="_blank" href="http://tj.fang.lianjia.com/">天津新房</a><a target="_blank" href="http://wh.fang.lianjia.com/">武汉新房</a><a target="_blank" href="http://xa.fang.lianjia.com/">西安新房</a><a target="_blank" href="http://xm.fang.lianjia.com/">厦门新房</a><a target="_blank" href="http://yt.fang.lianjia.com/">烟台新房</a><a target="_blank" href="http://hf.fang.lianjia.com/">合肥新房</a></dd></div><div><dd><a target="_blank" href="http://bj.fang.lianjia.com/loupan/">北京楼盘</a><a target="_blank" href="http://cd.fang.lianjia.com/loupan/">成都楼盘</a><a target="_blank" href="http://cq.fang.lianjia.com/loupan/">重庆楼盘</a><a target="_blank" href="http://cs.fang.lianjia.com/loupan/">长沙楼盘</a><a target="_blank" href="http://dl.fang.lianjia.com/loupan/">大连楼盘</a><a target="_blank" href="http://gz.fang.lianjia.com/loupan/">广州楼盘</a><a target="_blank" href="http://hz.fang.lianjia.com/loupan/">杭州楼盘</a><a target="_blank" href="http://jn.fang.lianjia.com/loupan/">济南楼盘</a><a target="_blank" href="http://nj.fang.lianjia.com/loupan/">南京楼盘</a><a target="_blank" href="http://qd.fang.lianjia.com/loupan/">青岛楼盘</a><a target="_blank" href="http://sjz.fang.lianjia.com/loupan/">石家庄楼盘</a><a target="_blank" href="http://sy.fang.lianjia.com/loupan/">沈阳楼盘</a><a target="_blank" href="http://sz.fang.lianjia.com/loupan/">深圳楼盘</a><a target="_blank" href="http://tj.fang.lianjia.com/loupan/">天津楼盘</a><a target="_blank" href="http://wh.fang.lianjia.com/loupan/">武汉楼盘</a><a target="_blank" href="http://xa.fang.lianjia.com/loupan/">西安楼盘</a><a target="_blank" href="http://xm.fang.lianjia.com/loupan/">厦门楼盘</a><a target="_blank" href="http://yt.fang.lianjia.com/loupan/">烟台楼盘</a><a target="_blank" href="http://hf.fang.lianjia.com/loupan/">合肥楼盘</a></dd></div><div><dd><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_xgfaaaxz/">霞公府</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_trfxddaaaly/">天润福熙大道</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_hdhfaalqa/">恒大华府</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_sybjaalhf/">墅语北京</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_glsxzaacnu/">格拉斯小镇</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_ysmdaaiav/">优山美地D区</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_hklysaahsq/">鸿坤林语墅</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_aabex/">泊岸</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_thlsaalqs/">天恒乐墅</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_thbjyzaagtt/">泰禾北京院子</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_8ldaaheo/">8哩岛</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_sswyaamyo/">山水文园五期</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_bjhmcaalqb/">北京华贸城</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_bjhtbsaacps/">北京红廷别墅</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_fy108aaijm/">梵悦108</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_gsysaarjh/">观山源墅</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_hhgjaaczv/">华瀚国际</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_jdhzaauqq/">金地华著</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_kdlyaagsk/">凯德麓语</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_myhrxswaaaoi/">密云华润橡树湾</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_sjssqqaagtc/">顺景石上清泉</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_skgfsyaawca/">首开国风尚樾</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_sklyaaguz/">首开琅樾</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_wghslaacvt/">温哥华森林</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_yylavieaagoi/">远洋LAVIE</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_zjgjggeqaakww/">中海国际公馆</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_hhhggaamzr/">恒华湖公馆</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_bchxsaaddl/">北辰红橡墅</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_lhccyzaaddm/">龙湖长城源著</a><a target="_blank" href="http://bj.fang.lianjia.com/loupan/p_ln7hbsaaelx/">鲁能7号别墅</a></dd></div><div><dd><a target="_blank" href="http://news.cd.lianjia.com/baike/011207.html">绿地率和绿化率对比</a><a target="_blank" href="http://news.cd.lianjia.com/baike/010664.html">买卖小产权房风险</a><a target="_blank" href="http://news.cd.lianjia.com/baike/010530.html">房屋产权核验要素</a><a target="_blank" href="http://news.bj.lianjia.com/baike/033371.html">如何选择换房方案</a><a target="_blank" href="http://news.bj.lianjia.com/baike/06645.html">卖房收款项</a><a target="_blank" href="http://news.bj.lianjia.com/baike/029526.html">买两限房注意事项</a><a target="_blank" href="http://news.bj.lianjia.com/baike/017029.html">卖房补充协议</a><a target="_blank" href="http://news.bj.lianjia.com/baike/027738.html">租房物业交割</a><a target="_blank" href="http://news.bj.lianjia.com/baike/019792.html">二手房资金监管</a><a target="_blank" href="http://news.bj.lianjia.com/baike/017745.html">通州二手房限购政策</a><a target="_blank" href="http://news.bj.lianjia.com/baike/06607.html">新房装修注意事项</a><a target="_blank" href="http://news.dl.lianjia.com/baike/09536.html">大连购房奖励领取</a><a target="_blank" href="http://news.dl.lianjia.com/baike/06682.html">买房公证类型</a><a target="_blank" href="http://news.dl.lianjia.com/baike/025723.html">房屋法定继承顺序</a><a target="_blank" href="http://news.dl.lianjia.com/baike/030230.html">大连购房提取公积金</a><a target="_blank" href="http://news.dl.lianjia.com/baike/09438.html">大连二手房购买流程</a><a target="_blank" href="http://news.dl.lianjia.com/baike/049312.html">二手房个人所得税</a><a target="_blank" href="http://news.dl.lianjia.com/baike/054567.html">新房得房率计算</a><a target="_blank" href="http://news.dl.lianjia.com/baike/032782.html">商业贷款银行拒贷</a><a target="_blank" href="http://news.dl.lianjia.com/baike/052395.html">大连买房落户</a><a target="_blank" href="http://news.tj.lianjia.com/baike/010503.html">买新房二手房区别</a><a target="_blank" href="http://news.tj.lianjia.com/baike/010865.html">二手房买卖交易流程</a><a target="_blank" href="http://news.tj.lianjia.com/baike/09968.html">物业交割清算费用</a><a target="_blank" href="http://news.tj.lianjia.com/baike/017136.html">二手房交定金注意事项</a><a target="_blank" href="http://news.tj.lianjia.com/baike/011251.html">二手房遗留物业费</a><a target="_blank" href="http://news.tj.lianjia.com/baike/011420.html">二手房物业交割步骤</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/0102291.html">规避租房合同纠纷</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/099896.html">农村房产买卖政策</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/099157.html">套内建筑面积</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/098358.html">规避查房封房风险</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/098105.html">老房子采光改造</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/097456.html">好户型实例解析</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/030648.html">委托买房核实真假</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/038797.html">委托中介买房环节</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/033364.html">购房意向定金退还</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/033385.html">买安置房风险</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/018776.html">石家庄住房公积金提取</a><a target="_blank" href="http://news.sjz.lianjia.com/baike/08331.html">办理房产继承公证</a></dd></div></div></div><div class="fr"><img src="http://s1.ljcdn.com/xinfang/pc/asset/img/home/erweima.png?_v=20170401192341"></div><div class="clear"></div></div><div class="bottom"><div class="copyright fl">北京链家房地产经纪有限公司 | 网络经营许可证 京ICP备11024601号-12 © Copyright©2010-2017 链家网Lianjia.com版权所有</div></div></div></div>
+
+
+
+<div class="fix-right-v2" id="back-top"  log-mod="sidebar">
+    <table>
+        <tr>
+            <td>
+                <div class="sidebar-wrap">
+                    <ul>
+                        <li class="myfav">
+                            <a title="我关注的房源" data-url="http://user.lianjia.com/site/favorHouse/" data-bl="myfav">我关注的房源</a>
+                            <span class="popup"><i></i>我关注的房源</span>
+                        </li>
+                    </ul>
+                    <div class="sidebar-line"></div>
+                    
+                    
+                                        <ul>
+                         
+                            <li class="ask">
+                                <a title="我要提问" href="http://bj.lianjia.com/wenda/" target="_blank" data-bl="wenda" rel="nofollow">我要提问</a>
+                                <span class="popup"><i></i>我要提问</span>
+                            </li>
+                                                 
+                            <li class="sell">
+                                <a title="在线卖房" href="http://bj.lianjia.com/yezhu/" target="_blank" data-bl="sell" rel="nofollow">在线卖房</a>
+                                <span class="popup"><i></i>在线卖房</span>
+                            </li>
+                                                <li class="kefu">
+                            <a title="在线服务" href="http://cconline.netapi.lianjia.com/webchat/index.html?ucid=&uuid=65ad1f9a5cfee3cb02127b88d5be390e&cityid=110000" target="_blank" data-bl="kefu" rel="nofollow">客服</a>
+                            <span class="popup"><i></i>在线服务</span>
+                        </li>
+                    </ul>
+                    <div class="sidebar-line"></div>
+                                        <ul>
+                         
+                                                        <li class="baodan">
+                                <a href="http://www.lianjia.com/zhuanti/baodan#110000" title="安心保单" target="_blank" data-bl="baodan" rel="nofollow">安心保单</a>
+                                <span class="popup"><i></i>安心保单</span>
+                            </li>
+                                                                            <li class="download">
+                            <a href="http://www.lianjia.com/client/" title="" target="_blank" data-bl="client" rel="nofollow">下载掌上链家</a>
+                            <span class="popup popup-qr">
+                                <i></i>
+                                                                    <img src="http://s1.ljcdn.com/xinfang/pc/asset/img/home/sidebar_qr.png?_v=20170401192341" alt="下载掌上链家" width="61">
+                                                                <em class="qr-title">链家APP</em>
+                            </span>
+                        </li>
+                        
+                                                <li class="feedback" id="feedback">
+                            <a title="反馈/投诉" data-bl="feedback" data-xftrack="10118_1">反馈/投诉</a>
+                            <span class="popup"><i></i>反馈/投诉</span>
+                        </li>
+                                                                        <li class="avoiddistrub" id="avoiddistrub">
+                            <a title="免来电打扰" href="http://www.lianjia.com/zhuanti/avoid-disturbing" target="_blank" data-bl="feedback">电话免打扰</a>
+                            <span class="popup"><i></i>免来电打扰</span>
+                        </li>
+                                            </ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <ul>
+        <li class="gotop" id="gotop" style="display: none;">
+            <a title="返回顶部" data-xftrack="10118_2">返回顶部</a>
+            <span class="popup"><i></i>返回顶部</span>
+        </li>
+    </ul>
+</div>
+
+<div class="feedback-box animated">
+    <p>您对新版链家网有任何意见和建议，或使用中遇到的问题，请在本页面反馈。
+我们会每天关注并不断优化产品，为您提供更好的服务！</p>
+<!-- 开举报入口的城市ID -->
+    <div class="tab">
+        <span class="check">意见反馈</span>
+        <span class="ent">我要投诉</span>
+    </div>
+    <div class="complain">
+        <div class="tab-box">
+            <div class="box">
+                <span>反馈内容<label class="erro-tips">请输入反馈内容</label></span>
+                <textarea id="count" placeholder="我们非常乐意收到您使用网站过程中的感受和意见" autofocus></textarea>
+            </div>
+            <div class="box">
+                <span>联系方式<i>(选填)</i></span>
+                <input type="text" id="tel" placeholder="手机号、Email、QQ均可">
+            </div>
+            <div class="clear"></div>
+            <div class="fl">
+                <button id="sub">提交反馈</button>
+                <span id="tips"></span>
+            </div>
+        </div>
+        <div class="tab-box appeal"  style="display:none;">
+            <div class="tel"><i></i>投诉热线/10109666</div>
+            <b>处理流程</b>
+            <p>
+                您可以通过链家网投诉热线提交投诉，我们会在24小时内（工作时间）反馈解决方案
+            </p>
+            <div id = "tousu" class="tousu">
+                <b>投诉公示</b>
+                <ul id="list">
+
+                </ul>
+                <a href="http://bj.lianjia.com/topic/tousu/" target="_blank" rel="nofollow">点击查看全部详情</a>
+            </div>
+        </div>
+    </div>
+    <div class="closebok"><img src="http://s1.ljcdn.com/xinfang/pc/asset/img/jingjiren/close.png?_v=20170401192341"></div>
+</div>
+
+<script src="http://s1.ljcdn.com/xinfang/pc/asset/base/fe.js?_v=20170401192341"></script><script src="http://s1.ljcdn.com/xinfang/pc/asset/common/common.js?_v=20170401192341"></script><div id="only" data-city="bj" data-page="xinfang_index"></div>
+<script>var path = 'http://s1.ljcdn.com/xinfang/pc/asset?_v=20170401192341'.split("?");require.config({baseUrl: path[0],paths: {'echarts' : '../../dep/echarts-1.4.1/build/echarts','echarts/chart/bar' : '../../dep/echarts-1.4.1/build/echarts','echarts/chart/line' : '../../dep/echarts-1.4.1/build/echarts','echarts/chart/pie' : '../../dep/echarts-1.4.1/build/echarts','common': 'common','jquery-ui': '../../dep/jquery-ui/jquery-ui.min','webuploader': '../../dep/webuploader/webuploader'},urlArgs:  path[1]});var feData = {"cityName": "北京","getFavHouseUrl":       "/api/gethousefav","setFavHouseUrl":       "/api/sethousefav","getLastSearch":        "/api/getlastsearch","getCommunityHistory":  "/api/getcommunityhistory","verifyHouse":          "/api/verifyHouse","getUser":              "/api/getUser","verifyCode":           "/api/getVerifyCode","complaint":            "/api/complaint","getDecoration":        "/api/getDecoration","trendData" :           "/site/getpicinfo"}</script>
+    <script type="text/javascript">
+        require(['xinfang/index/index'], function (index) {
+            index.init({
+                slide: [
+                    {
+                        itemCon: "#itemCon",
+                        dotCon: "#list_mark"
+                    },
+                    {
+                        itemCon: "#videoitemCon",
+                        dotCon: "#videolist_mark"
+                    }
+                ],
+                recentList: {
+                    showRecent: '/xinfang/history/',
+                    deleteItem: '/xinfang/clearhistory'
+                },
+                openUrl: '/loupan/'
+
+            });
+        });
+    </script>
+<script>require(['common/suggestion'], function (suggestion) {window.defaultSuggest = suggestion.init({requestOptions: {cityId: '110000',cityName: '北京'},url: '/api/headerSearch?channel=xinfang&q=',main: '#keyword-box',appendTo: '#suggest-cont',redirect: true});});</script><div class="loninContaner"><div class="overlay_bg"></div><div class="panel_login animated" id="dialog"><div class="panel_info"><div class="panel_tab"><div class="title"><div class="fl">用户登录</div><label class="fr">还没有链家网账号？<a href="http://passport.lianjia.com/register/resources/lianjia/register.html?service=http%3A%2F%2Fbj.lianjia.com%2F" rel="nofollow">马上注册</a></label></div><div class="clear"></div><div id="con_login_user"><form action="" method="post"><ul><li class="show-error"><dd>用户名或密码错误</dd></li><li class="item userName"><i></i><input type="text" class="the_input users" placeholder="请输入手机号" /></li><li class="item pwd"><i></i><input type="password" class="the_input password"  placeholder="请输入登录密码"/></li><li class="item checkVerimg" style="display:none"><input type="text" class="the_input ver-img" maxlength="4"  placeholder="请输入验证码"/><img class="verImg"></li><li class="li_01"><label><input type="checkbox" name="remember" value="1" class="mind-login">下次自动登录</label><a href="https://passport.lianjia.com/register/resources/lianjia/forget.html?service=http://bj.lianjia.com/" rel="nofollow">找回密码</a></li><li><a class="login-user-btn"  />立即登录</a></li></ul></form></div><div id="con_login_agent" class="undis"><form action="" method="post"><ul><li class="item"><dd></dd><input type="text" class="the_input users" placeholder="输入经纪人ID号码" /></li><li class="item"><input type="password" class="the_input password"  placeholder="登录密码"/></li><li class="li_01"><label><input type="checkbox" name="remember" value="1" class="mind-login">下次自动登录</label><a href="https://passport.lianjia.com/register/resources/lianjia/forget.html?service=http://bj.lianjia.com/" rel="nofollow">找回密码</a></li><li><input class="login-agent-btn" value="立即登录"/></li></ul></form></div></div></div><div class="registered"></div></div></div><div style="display:none">
+            <!-- google -->
+            <script>
+            (function(i, s, o, g, r, a, m) {
+              i['GoogleAnalyticsObject'] = r;
+              i[r] = i[r] ||
+              function() {
+                (i[r].q = i[r].q || []).push(arguments)
+              }, i[r].l = 1 * new Date();
+              a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+              a.async = 1;
+              a.src = g;
+              m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            switch (window.location.hostname) {
+            case "www.lianjia.com":
+              ga('create', 'UA-55936351-1', 'auto');
+              ga('send', 'pageview');
+              ga('create', 'UA-64253156-1', 'auto', {
+                'name' : 'past'
+              });
+              ga('past.send', 'pageview');
+              break;
+            case "bj.lianjia.com":
+              ga('create', 'UA-55871340-1', 'auto');
+              ga('send', 'pageview');
+              ga('create', 'UA-64257554-1', 'auto', {
+                'name' : 'past'
+              });
+              ga('past.send', 'pageview');
+              break;
+            case 'tj.lianjia.com':
+              ga('create', 'UA-55875231-1', 'auto');
+              ga('send', 'pageview');
+              ga('create', 'UA-64257943-1', 'auto', {
+                'name' : 'past'
+              });
+              ga('past.send', 'pageview');
+              break;
+            case 'nj.lianjia.com':
+              ga('create', 'UA-55873426-1', 'auto');
+              ga('send', 'pageview');
+              ga('create', 'UA-64253751-1', 'auto', {
+                'name' : 'past'
+              });
+              ga('past.send', 'pageview');
+              break;
+            case 'dl.lianjia.com':
+              ga('create', 'UA-55870447-1', 'auto');
+              ga('send', 'pageview');
+              ga('create', 'UA-64247539-1', 'auto', {
+                'name' : 'past'
+              });
+              ga('past.send', 'pageview');
+              break;
+            case 'cd.lianjia.com':
+              ga('create', 'UA-55870653-1', 'auto');
+              ga('send', 'pageview');
+              ga('create', 'UA-64268152-1', 'auto', {
+                'name' : 'past'
+              });
+              ga('past.send', 'pageview');
+              break;
+            case 'qd.lianjia.com':
+              ga('create', 'UA-55872336-1', 'auto');
+              ga('create', 'UA-64261868-1', 'auto', {
+                'name' : 'past'
+              });
+              ga('send', 'pageview');
+              ga('past.send', 'pageview');
+              break;
+            case 'hz.lianjia.com':
+              ga('create', 'UA-55872128-1', 'auto');
+              ga('create', 'UA-64269651-1', 'auto', {
+                'name' : 'past'
+              });
+              ga('send', 'pageview');
+              ga('past.send', 'pageview');
+              break;
+            case 'sh.lianjia.com':
+              ga('create', 'UA-55872133-1', 'auto');
+              ga('send', 'pageview');
+              ga('create', 'UA-64248152-1', 'auto', {
+                'name' : 'past'
+              });
+              ga('past.send', 'pageview');
+              break;
+            case 'su.lianjia.com':
+              ga('create', 'UA-60600448-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'xm.lianjia.com':
+              ga('create', 'UA-65428058-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'sz.lianjia.com':
+              ga('create', 'UA-66812100-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'xa.lianjia.com':
+              ga('create', 'UA-66848023-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'cq.lianjia.com':
+              ga('create', 'UA-66832431-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'wh.lianjia.com':
+              ga('create', 'UA-66856830-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'cs.lianjia.com':
+              ga('create', 'UA-66847639-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'fang.lianjia.com':
+              ga('create', 'UA-66842144-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'bj.fang.lianjia.com':
+              ga('create', 'UA-66849657-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'sh.fang.lianjia.com':
+              ga('create', 'UA-66853440-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'sz.fang.lianjia.com':
+              ga('create', 'UA-66847941-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'cd.fang.lianjia.com':
+              ga('create', 'UA-66833338-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'tj.fang.lianjia.com':
+              ga('create', 'UA-66833962-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'nj.fang.lianjia.com':
+              ga('create', 'UA-66829759-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'dl.fang.lianjia.com':
+              ga('create', 'UA-66834157-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'qd.fang.lianjia.com':
+              ga('create', 'UA-66847673-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'hz.fang.lianjia.com':
+              ga('create', 'UA-66830161-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'su.fang.lianjia.com':
+              ga('create', 'UA-66834360-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'xm.fang.lianjia.com':
+              ga('create', 'UA-66842359-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'cs.fang.lianjia.com':
+              ga('create', 'UA-66848242-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'wh.fang.lianjia.com':
+              ga('create', 'UA-66837255-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'cq.fang.lianjia.com':
+              ga('create', 'UA-66854882-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'xa.fang.lianjia.com':
+              ga('create', 'UA-66848778-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'jn.fang.lianjia.com':
+              ga('create', 'UA-73096301-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'gz.fang.lianjia.com':
+              ga('create', 'UA-77065775-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'sjz.fang.lianjia.com':
+              ga('create', 'UA-73058787-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'yt.fang.lianjia.com':
+              ga('create', 'UA-86725208-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'us.lianjia.com':
+              ga('create', 'UA-66842178-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'uk.lianjia.com':
+              ga('create', 'UA-66858464-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'au.lianjia.com':
+              ga('create', 'UA-66860803-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'ca.lianjia.com':
+              ga('create', 'UA-66851395-1', 'auto');
+              ga('send', 'pageview');
+              break;
+            case 'm.lianjia.com':
+            ga('create', 'UA-55871942-1', 'auto');
+            ga('create', 'UA-34859395-1', 'auto', {
+              'name' : 'past'
+            });
+            ga('create', 'UA-61982569-1', 'auto', {
+              'name' : 'new'
+            });
+            ga('send', 'pageview');
+            ga('past.send', 'pageview');
+            ga('new.send', 'pageview');
+            break;
+            case 'agent.lianjia.com':
+              ga('create', 'UA-60860114-1', 'auto');
+              ga('send', 'pageview');
+            break;
+            case 'login.lianjia.com':
+              ga('create', 'UA-60863507-1', 'auto');
+              ga('send', 'pageview');
+            break;
+            case 'cms.lianjia.com':
+              ga('create', 'UA-60839596-1', 'auto');
+              ga('send', 'pageview');
+            break;
+            case 'user.lianjia.com':
+              ga('create', 'UA-64593984-1', 'auto');
+              ga('send', 'pageview');
+            break;
+            }
+            ga('create', 'UA-55876525-1', 'auto', {
+              'name' : 'global'
+            });
+            ga('global.send', 'pageview');
+            ga('create', 'UA-60608360-1', 'auto', {
+              'name' : 'new_global'
+            });
+            ga('new_global.send', 'pageview');
+            ga('create', 'UA-64639325-1', 'auto', {
+              'name' : 'dianpu_agent'});
+            ga('dianpu_agent.send', 'pageview');
+            ga('create', 'UA-75863705-1', 'auto',{
+              'name' : 'all_fang_lianjia'});
+            ga('all_fang_lianjia', 'pageview');
+            $(document).on('click','[data-dianji]',function(){ga('send','event',$(this).data('dianji'),'click','inside_referral',1);})
+            </script>
+
+            <!-- CNZZ STAT -->
+            <script type="text/javascript">
+            (function() {
+              var id=0;
+              switch (window.location.hostname) {
+              case "www.lianjia.com":
+                id=1253477541;
+                break;
+              case "bj.lianjia.com":
+                id=1253477573;
+                break;
+              case "nj.lianjia.com":
+                id=1253492138;
+                break;
+              case "tj.lianjia.com":
+                id=1253477585;
+                break;
+              case "cd.lianjia.com":
+                id=1253492306;
+                break;
+              case "dl.lianjia.com":
+                id=1253492418;
+                break;
+              case "qd.lianjia.com":
+                id=1253492431;
+                break;
+              case "hz.lianjia.com":
+                id=1253492436;
+                break;
+              case "sh.lianjia.com":
+                id=1253492439;
+                break;
+              case "su.lianjia.com":
+                id=1254525908;
+                break;
+              case "m.lianjia.com":
+                id=1253491255;
+                break;
+              case "agent.lianjia.com":
+                id=1254574589;
+                break;
+              case "login.lianjia.com":
+                id=1254574635;
+                break;
+              case "cms.lianjia.com":
+                id=1254574663;
+                break;
+            case "user.lianjia.com":
+                id=1255606315;
+                break;
+            case "xm.lianjia.com":
+                id=1255847100;
+                break;
+            case "sz.lianjia.com":
+                id=1255849469;
+                break;
+            case "wh.lianjia.com":
+                id=1255849575;
+                break;
+            case "xa.lianjia.com":
+                id=1255849580;
+                break;
+            case "cq.lianjia.com":
+                id=1255849584;
+                break;
+            case "cs.lianjia.com":
+                id=1255849590;
+                break;
+            case "gz.lianjia.com":
+                id=1255849599;
+                break;
+            case "nc.lianjia.com":
+                id=1255849602;
+                break;
+            case "wx.lianjia.com":
+                id=1255849628;
+                break;
+            case "sy.lianjia.com":
+                id=1255849613;
+                break;
+            case "fz.lianjia.com":
+                id=1255849622;
+                break;
+            case "sjz.lianjia.com":
+                id=1255849629;
+                break;
+            case "zz.lianjia.com":
+                id=1255849631;
+                break;
+            case "hrb.lianjia.com":
+                id=1255849634;
+                break;
+            case "nb.lianjia.com":
+                id=1255849638;
+                break;
+            case "jn.lianjia.com":
+                id=1255849654;
+                break;
+            case "ty.lianjia.com":
+                id=1255849660;
+                break;
+            case "fang.lianjia.com":
+                id=1256144437;
+                break;
+            case "bj.fang.lianjia.com":
+                id=1256144455;
+                break;
+            case "sh.fang.lianjia.com":
+                id=1256144506;
+                break;
+            case "tj.fang.lianjia.com":
+                id=1256144531;
+                break;
+            case "nj.fang.lianjia.com":
+                id=1256144568;
+                break;
+            case "cd.fang.lianjia.com":
+                id=1256144579;
+                break;
+            case "sz.fang.lianjia.com":
+                id=1256189346;
+                break;
+            case "dl.fang.lianjia.com":
+                id=1256189370;
+                break;
+            case "qd.fang.lianjia.com":
+                id=1256189385;
+                break;
+            case "hz.fang.lianjia.com":
+                id=1256189456;
+                break;
+            case "cs.fang.lianjia.com":
+                id=1256189477;
+                break;
+            case "xa.fang.lianjia.com":
+                id=1256189488;
+                break;
+            case "cq.fang.lianjia.com":
+                id=1256189500;
+                break;
+            case "su.fang.lianjia.com":
+                id=1256189521;
+                break;
+            case "xm.fang.lianjia.com":
+                id=1256189542;
+                break;
+            case "wh.fang.lianjia.com":
+                id=1256296306;
+                break;
+            case "jn.fang.lianjia.com":
+                id=1257392697;
+                break;
+            case "sjz.fang.lianjia.com":
+                id=1257392744;
+                break;
+            case "fs.fang.lianjia.com":
+                id=1259272651;
+                break;
+            case "dg.fang.lianjia.com":
+                id=1259317044;
+                break;
+            case "gz.fang.lianjia.com":
+                id=1259317647;
+                break;
+            case "hui.fang.lianjia.com":
+                id=1259317812;
+                break;
+            case "sy.fang.lianjia.com":
+                id=1259317822;
+                break;
+            case "yt.fang.lianjia.com":
+                id=1259317870;
+                break;
+            case "zs.fang.lianjia.com":
+                id=1259318357;
+                break;
+            case "zh.fang.lianjia.com":
+                id=1259318412;
+                break;
+            case "yz.fang.lianjia.com":
+                id=1259318446;
+                break;
+            case "nt.fang.lianjia.com":
+                id=1259318479;
+                break;
+            case "wf.fang.lianjia.com":
+                id=1259318494;
+                break;
+            case "wx.fang.lianjia.com":
+                id=1259318563;
+                break;
+            case "wz.fang.lianjia.com":
+                id=1259318613;
+                break;
+            case "ts.fang.lianjia.com":
+                id=1259318691;
+                break;
+            case "jx.fang.lianjia.com":
+                id=1259318709;
+                break;
+            case "ty.fang.lianjia.com":
+                id=1259318742;
+                break;
+            case "hk.fang.lianjia.com":
+                id=1259318778;
+                break;
+            case "lin.fang.lianjia.com":
+                id=1259318881;
+                break;
+            case "xz.fang.lianjia.com":
+                id=1259318896;
+                break;
+            case "world.lianjia.com":
+                id=1256189625;
+                break;
+            case "us.lianjia.com":
+                id=1256189653;
+                break;
+            case "uk.lianjia.com":
+                id=1256189664;
+                break;
+            case "au.lianjia.com":
+                id=1256189704;
+                break;
+            case "ca.lianjia.com":
+                id=1256189731;
+                break;
+              }
+              var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+              if (id) {
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_" + id + "'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/c.php%3Fid%3D" + id + "' type='text/javascript'%3E%3C/script%3E"));
+            }
+            }
+            )();
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1254525948'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/c.php%3Fid%3D1254525948' type='text/javascript'%3E%3C/script%3E"));
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1255633284'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/c.php%3Fid%3D1255633284' type='text/javascript'%3E%3C/script%3E"));
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1255604082'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1255604082' type='text/javascript'%3E%3C/script%3E"));
+            $(document).on('click','[data-dianji]',function(){_czc.push(﻿['_trackEvent',$(this).data('dianji'),'click','inside_referral',1]);});
+            </script>
+
+
+            <!-- DSP -->
+            <script type="text/javascript">
+            var _mvq = _mvq || [];
+            _mvq.push(['$setAccount', 'm-173171-0']);
+            _mvq.push(['$logConversion']);
+            (function() {
+                var mvl = document.createElement('script');
+                mvl.type = 'text/javascript'; mvl.async = true;
+                mvl.src = ('https:' == document.location.protocol ? 'https://static-ssl.mediav.com/mvl.js' : 'http://static.mediav.com/mvl.js');
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(mvl, s);
+            })();
+
+            </script>
+        </div><!-- lianjia ulog --><div style="display:none"><script type="text/javascript">window.__UDL_CONFIG={'cid': '110000','f': document.referrer,'ljweb_channel_key':'xinfang_index'};</script><script src="http://s1.ljcdn.com/xinfang/dep/ljulog.js?_v=20170401192341"></script></div><script type="text/javascript">
+  $.listener.on('userInfo', function (data) {
+    window.loginData = data;
+  });
+
+  $(window).on('load', function() {
+    // SEO 百度自动推送URL
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https'){
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else{
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  });
+  </script></body></html>
