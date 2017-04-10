@@ -90,6 +90,8 @@ var mainVue = new Vue({
 				        			shouqingArr.push(shouqingObj)
 				        		}else{ // 未售罄，还在售的，分情况考虑
 				        			itemNew = mainList[k][0]
+				        			itemNew.show_price = 1 * itemNew.show_price
+				        			item.show_price = 1 * item.show_price
 				        			if(item.show_price != 0){ // 之前不是售价0
 				        				if(itemNew.show_price == 0){ // 新横盘
 				        					var hengpanObj = {
