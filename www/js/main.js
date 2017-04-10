@@ -27,6 +27,7 @@ var mainVue = new Vue({
 			this.activeIndex = i
 			this.searchKey = ''
 			this.search(util.getTodayString())
+			document.getElementById('d1').value = ''
 		},
 		searchByDate: function(){
 			var d = document.getElementById('d1').value
