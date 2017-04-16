@@ -7,6 +7,7 @@ var mainVue = new Vue({
 		'searchDate': '',
 		'dongtaiDay': '',
 		'dongtai': '',
+		'type': 'yestady',
 		'cityArr': [
 			'bj', 'cd', 'cq', 'cs', 'dl', 'gz', 
 			'hz', 'hf', 'jn', 'nj', 
@@ -69,7 +70,13 @@ var mainVue = new Vue({
 				var oldPrizeAll = 0
 				var newPrizeAll = 0
 
-				var yestady = date*1 - 1;
+				var yestady = this.type == 'yestady' ? date*1 - 1 : '20170405';
+				var yestady = ''
+				if(this.type == 'all'){
+					yestady = '20170405'
+				}else{
+					yestady = util.getYestody(date)
+				}
 				var _this = this
 				var url = '../json/' + this.cityArr[this.activeIndex] + '-' + yestady + '.json'
 				axios.get(url, {})

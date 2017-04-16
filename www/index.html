@@ -24,6 +24,18 @@
             <button @click="searchByDate">搜索</button>
         </div>
         <div>
+            <div>
+                <label for="">
+                    <input type="radio" name="type" value="yestady" v-model='type'>
+                    显示与昨日对比
+                </label>
+                <label for="">
+                    <input type="radio" name="type" value="all" v-model='type'>
+                    显示与2017-04-05对比
+                </label>
+            </div>
+        </div>
+        <div>
             <div>{{dongtaiDay}}日动态</div>
             <div v-html='dongtai'></div>
         </div>
