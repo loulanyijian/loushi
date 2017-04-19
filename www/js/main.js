@@ -149,14 +149,14 @@ var mainVue = new Vue({
 				        		}
 				        	}
 
-				        	_this.dongtai += '旧楼盘数:' + oldNumAll + ', ' + '均价：' + parseInt(oldPrizeAll/oldNumFeiLing) + '元/平<br>'
-				        	_this.dongtai += '新楼盘数:' + newNumAll + ', ' + '均价：' + parseInt(newPrizeAll/newNumFeiLing) + '元/平<br>'
-				        	_this.dongtai += '涨价楼盘:' + JSON.stringify(zhangjiaArr) + '<br>'
-				        	_this.dongtai += '降价价楼盘:' + JSON.stringify(jiangjiaArr) + '<br>'
-				        	_this.dongtai += '新横盘楼盘:' + JSON.stringify(hengpanArr) + '<br>'
-				        	_this.dongtai += '新起盘楼盘:' + JSON.stringify(qipanArr) + '<br>'
-				        	_this.dongtai += '新开楼盘:' + JSON.stringify(xinkaiArr) + '<br>'
-				        	_this.dongtai += '新售罄楼盘:' + JSON.stringify(shouqingArr) + '<br>'
+				        	_this.dongtai += '<span class="red">旧楼盘数:</span>' + oldNumAll + ', ' + '均价：' + parseInt(oldPrizeAll/oldNumFeiLing) + '元/平<br><br>'
+				        	_this.dongtai += '<span class="red">新楼盘数:</span>' + newNumAll + ', ' + '均价：' + parseInt(newPrizeAll/newNumFeiLing) + '元/平<br><br>'
+				        	_this.dongtai += '<span class="red">涨价楼盘:</span>' + JSON.stringify(zhangjiaArr) + '<br><br>'
+				        	_this.dongtai += '<span class="red">降价价楼盘:</span>' + JSON.stringify(jiangjiaArr) + '<br><br>'
+				        	_this.dongtai += '<span class="red">新横盘楼盘:</span>' + JSON.stringify(hengpanArr) + '<br><br>'
+				        	_this.dongtai += '<span class="red">新起盘楼盘:</span>' + JSON.stringify(qipanArr) + '<br><br>'
+				        	_this.dongtai += '<span class="red">新开楼盘:</span>' + JSON.stringify(xinkaiArr) + '<br><br>'
+				        	_this.dongtai += '<span class="red">新售罄楼盘:</span>' + JSON.stringify(shouqingArr) + '<br><br>'
 				        }
 				    })
 				    .catch(function(err){
