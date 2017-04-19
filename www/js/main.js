@@ -151,12 +151,12 @@ var mainVue = new Vue({
 
 				        	_this.dongtai += '<span class="red">旧楼盘数:</span>' + oldNumAll + ', ' + '均价：' + parseInt(oldPrizeAll/oldNumFeiLing) + '元/平<br><br>'
 				        	_this.dongtai += '<span class="red">新楼盘数:</span>' + newNumAll + ', ' + '均价：' + parseInt(newPrizeAll/newNumFeiLing) + '元/平<br><br>'
-				        	_this.dongtai += '<span class="red">涨价楼盘:</span>' + JSON.stringify(zhangjiaArr) + '<br><br>'
-				        	_this.dongtai += '<span class="red">降价价楼盘:</span>' + JSON.stringify(jiangjiaArr) + '<br><br>'
-				        	_this.dongtai += '<span class="red">新横盘楼盘:</span>' + JSON.stringify(hengpanArr) + '<br><br>'
-				        	_this.dongtai += '<span class="red">新起盘楼盘:</span>' + JSON.stringify(qipanArr) + '<br><br>'
-				        	_this.dongtai += '<span class="red">新开楼盘:</span>' + JSON.stringify(xinkaiArr) + '<br><br>'
-				        	_this.dongtai += '<span class="red">新售罄楼盘:</span>' + JSON.stringify(shouqingArr) + '<br><br>'
+				        	_this.dongtai += '<span class="red">涨价楼盘……' + zhangjiaArr.length + '个:</span>' + JSON.stringify(zhangjiaArr) + '<br><br>'
+				        	_this.dongtai += '<span class="red">降价价楼盘……' + jiangjiaArr.length + '个:</span>' + JSON.stringify(jiangjiaArr) + '<br><br>'
+				        	// _this.dongtai += '<span class="red">新横盘楼盘:</span>' + JSON.stringify(hengpanArr) + '<br><br>'
+				        	// _this.dongtai += '<span class="red">新起盘楼盘:</span>' + JSON.stringify(qipanArr) + '<br><br>'
+				        	_this.dongtai += '<span class="red">新开楼盘……' + xinkaiArr.length + '个:</span>' + JSON.stringify(xinkaiArr) + '<br><br>'
+				        	_this.dongtai += '<span class="red">新售罄楼盘……' + shouqingArr.length + '个:</span>' + JSON.stringify(shouqingArr) + '<br><br>'
 				        }
 				    })
 				    .catch(function(err){

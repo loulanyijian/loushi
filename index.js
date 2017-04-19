@@ -10,12 +10,10 @@ function getCity(name){
 	var url = 'http://' + name + config.base
 	j.setCookie(cookie, url);
 	request({url: url, jar: j}, function(err, response, body) {
-		//如果数据量比较大，就需要对返回的数据根据日期、酒店ID进行存储，如果获取数据进行对比的时候直接读文件
 		var filePath = __dirname + '/json/' + name + '-' + util.getTodayString() + '.json';
 
 		if (fs.exists(filePath)) {
 			fs.unlinkSync(filePath);
-
 			console.log('Del file ' + filePath);
 		}
 
