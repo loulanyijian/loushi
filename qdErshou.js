@@ -3,7 +3,8 @@ import fs from 'fs'
 
 import util from './src/util.js'
 
-var url = 'http://ajax.lianjia.com/ajax/mapsearch/area/community?min_longitude=120&max_longitude=120.5&min_latitude=35.93&max_latitude=35.98&&city_id=370200&min_house_year=1&max_house_year=18&min_price=50&max_price=300&min_area=50&max_area=200'
+// var url = 'http://ajax.lianjia.com/ajax/mapsearch/area/community?min_longitude=120&max_longitude=120.5&min_latitude=35.93&max_latitude=36.01&&city_id=370200&min_house_year=1&max_house_year=18&min_price=50&max_price=300&min_area=50&max_area=500'
+var url = 'http://ajax.lianjia.com/ajax/mapsearch/area/community?min_longitude=120&max_longitude=120.5&min_latitude=35.93&max_latitude=36.01&&city_id=370200'
 
 var url2 = 'http://ajax.lianjia.com/ajax/housesell/area/community?ids={xxx}&limit_offset=0&limit_count=100&sort=price_desc&&city_id=370200'
 
@@ -14,6 +15,7 @@ function getAll() {
     j.setCookie(cookie, url);
     request({ url: url, jar: j }, function(err, response, body) {
         var filePath = __dirname + '/qdErshouJson/qdErshou-' + util.getTodayString() + '.json';
+        // var filePath = __dirname + '/qdErshouJson/qdErshou-20170430.json';
 
         if (fs.exists(filePath)) {
             fs.unlinkSync(filePath);
@@ -42,6 +44,7 @@ function getEveryPan(data){
 		j.setCookie(cookie, url);
 		request({ url: url3, jar: j }, function(err, response, body) {
 		    var filePath = __dirname + '/qdErshouJson/' + item.id + '-' + util.getTodayString() + '.json';
+		    // var filePath = __dirname + '/qdErshouJson/' + item.id + '-20170430.json';
 
 		    if (fs.exists(filePath)) {
 		        fs.unlinkSync(filePath);

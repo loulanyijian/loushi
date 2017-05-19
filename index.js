@@ -11,6 +11,7 @@ function getCity(name){
 	j.setCookie(cookie, url);
 	request({url: url, jar: j}, function(err, response, body) {
 		var filePath = __dirname + '/json/' + name + '-' + util.getTodayString() + '.json';
+		// var filePath = __dirname + '/json/' + name + '-20170430.json';
 
 		if (fs.exists(filePath)) {
 			fs.unlinkSync(filePath);

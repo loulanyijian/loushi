@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>房价走势-黄岛二手房</title>
+    <title>房价走势-北京二手房</title>
     <link rel="stylesheet" href="//css.letvcdn.com/lc07_lecloud/201611/14/13/41/style.min.css">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
@@ -11,15 +11,14 @@
 <body>
     <a id="toTop" href="#app">回到顶部</a>
     <div id="app">
+        <div>
+            北京二手房信息，共 {{mainList.length}} 个楼盘
+        </div>
         <div v-if='showType == 0'>
-            <div>
-                黄岛二手房信息，共 {{mainList.length}} 个楼盘
-            </div>
             <div>
                 <input type="text" class="searchInput" placeholder='请输入楼盘名称' v-model.trim='searchKey'>
                 <input readonly type="text" id="d1" tabindex="-1" class="common-input-style laydate-icon searchInput"
                    onFocus="WdatePicker({dateFmt:'yyyy-MM-dd',minDate:'2017-04-05',maxDate:'%y-%M-%d'})">
-                <input type="checkbox" v-model='onlyChange'>只看有变化的
             </div>
 
         	<table cellpadding="0" cellspacing="0">
@@ -29,13 +28,12 @@
         			<th>参考均价</th>
                     <th>最低总价格</th>
                     <th>详情</th>
-                    <th>今日涨跌</th>
         		</tr>
-        		<template v-for="(i, index) in mainList" v-if="i.name.indexOf(searchKey) > -1 && (!onlyChange || onlyChange && i.zhangDie)">
+        		<template v-for="(i, index) in mainList" v-if="i.name.indexOf(searchKey) > -1">
         			<tr>
                         <td>
                             <a 
-                                :href="'http://qd.lianjia.com/ershoufang/co22rs'+i.name" 
+                                :href="'http://bj.lianjia.com/ershoufang/co22rs'+i.name" 
                                 target="blank"
                                 :class="{'star':guanzhuList.indexOf(i.name) > -1}">{{i.name}}</a>
                         </td>
@@ -45,16 +43,12 @@
                         <td>
                             <a href="javascript:void(0)" @click='showPan(i.id)'>查看</a>
                         </td>
-                        <td>
-                            {{i.zhangDie}}
-                        </td>
         			</tr>
         		</template>
         	</table>
         </div>
         <div v-if='showType == 1'>
             <button @click='showType = 0' class='back'>返回</button>
-            <div v-html='dongtai'></div>
             <table cellpadding="0" cellspacing="0">
                 <tr>
                     <th>标题</th>
@@ -68,11 +62,11 @@
                     <th>涨幅信息</th>
                     <th>封面图</th>
                 </tr>
-                <template v-for="(i, index) in louList">
+                <template v-for="(i, index) in louList.list">
                     <tr>
                         <td>
                             <a 
-                                :href="'http://qd.lianjia.com/ershoufang/'+i.house_code+'.html'" 
+                                :href="'http://bj.lianjia.com/ershoufang/'+i.house_code+'.html'" 
                                 target="blank"
                                 >
                                 {{i.title}}
@@ -107,7 +101,7 @@
     <script src="//js.letvcdn.com/lc07_lecloud/201704/10/10/06/WdatePicker.js"></script>
     <script src="./js/axios.js"></script>
     <script type="text/javascript" src='./js/util.js'></script>
-    <script type="text/javascript" src='./js/qdErshou.js'></script>
+    <script type="text/javascript" src='./js/bjErshou.js'></script>
 </body>
 
 </html>
