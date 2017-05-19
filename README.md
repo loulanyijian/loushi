@@ -47,6 +47,7 @@ babel-node bjErshou.js
 * 前端使用vue展示数据、使用axios请求数据
 * `http://IP:host/www/` [全国大城市新房每日、对比数据]
 * `http://IP:host/www/qdErshou.html` [青岛-黄岛二手房每日数据]
+	* 如果需要展示图片的话，不能使用IP启动服务，链家的图片会报403错误
 
 ### 全国大城市新房每日、对比数据-图片展示
 ![全国大城市新房每日、对比数据](./www/images/loushi1.png)
